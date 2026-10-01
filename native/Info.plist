@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0"><dict>
+<key>CFBundleIdentifier</key><string>org.openphone.local</string>
+<key>CFBundleName</key><string>Open Phone</string>
+<key>CFBundleExecutable</key><string>open-phone-hid</string>
+<key>CFBundleVersion</key><string>1</string>
+<key>CFBundleShortVersionString</key><string>0.1.0</string>
+<key>CFBundlePackageType</key><string>APPL</string>
+<key>LSUIElement</key><true/>
+<key>NSBluetoothAlwaysUsageDescription</key><string>Open Phone provides Bluetooth keyboard and pointer input to your paired iPhone for local automation.</string>
+<key>NSCameraUsageDescription</key><string>Open Phone captures the USB-connected iPhone display. It does not open the Mac webcam.</string>
+</dict></plist>

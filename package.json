@@ -1,0 +1,19 @@
+{
+  "name": "open-phone-local",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "build": "python3 native/build.py",
+    "start": "node mcp.mjs",
+    "test": "python3 -m unittest discover -s tests"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "1.27.1",
+    "express": "5.2.1"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
