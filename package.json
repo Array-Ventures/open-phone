@@ -1,17 +1,16 @@
 {
-  "name": "open-phone-local",
+  "name": "openphone-workspace",
   "version": "0.1.0",
   "private": true,
   "type": "module",
   "license": "MIT",
+  "workspaces": [
+    "packages/mcp"
+  ],
   "scripts": {
-    "build": "python3 native/build.py",
-    "start": "node mcp.mjs",
-    "test": "python3 -m unittest discover -s tests"
-  },
-  "dependencies": {
-    "@modelcontextprotocol/sdk": "1.27.1",
-    "express": "5.2.1"
+    "build": "python3 -m openphone build",
+    "start": "npm run start --workspace @openphone/mcp",
+    "test": "python3 -m unittest discover -s tests/unit && npm run test --workspace @openphone/mcp"
   },
   "engines": {
     "node": ">=20"

@@ -3,6 +3,8 @@ node_modules/
 .venv-video/
 .venv/
 __pycache__/
+*.egg-info/
+dist/
 .*
 !.gitignore
 !.github/

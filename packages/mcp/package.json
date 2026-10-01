@@ -1,0 +1,18 @@
+{
+  "name": "@openphone/mcp",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "start": "node src/mcp.mjs",
+    "relay": "node src/relay_mcp.mjs",
+    "http": "node src/mcp_http.mjs",
+    "test": "node tests/mcp.mjs && node tests/relay_mcp.mjs && node tests/dashboard_client.mjs && node tests/mcp_http.mjs && node tests/oauth_http.mjs && node tests/oauth_persistence.mjs"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "1.27.1",
+    "express": "5.2.1"
+  },
+  "engines": {"node": ">=20"}
+}
